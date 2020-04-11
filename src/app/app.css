@@ -1,0 +1,9 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.css";
+
+.header {
+    border: 1px solid white;
+    background-color: lightgrey;
+    padding: 10px;
+    box-shadow: lightgray;
+}
+
