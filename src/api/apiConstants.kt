@@ -1,6 +1,6 @@
 package api
 
-const val hostName = "http://localhost:8080";
+const val hostName = "https://chai-covid-dashboard.herokuapp.com/"
 const val worldDataApi = "$hostName/getWorldData"
 
 val stateData = { stateName: String -> "$hostName/getLatestByState/${stateName}" }
